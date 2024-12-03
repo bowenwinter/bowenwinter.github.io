@@ -81,7 +81,8 @@ h4 {
 	grid-row: 1/2;
 	grid-column: 1/2;
 	font-family: "futura-pt", sans-serif;
-	font-weight: 400;
+	font-weight: 700;
+	margin-bottom: .2em;
 }
 
 a {
@@ -195,7 +196,7 @@ article {
 	/* background-color: rgb(0, 255, 255); */
 	margin: 0 auto 5em;
 	justify-content: left;
-	max-width: 40em;
+	max-width: 30em;
 }
 
 div.contact {
