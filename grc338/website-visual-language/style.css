@@ -270,13 +270,14 @@ footer p {
 @media screen and (max-width: 30em) {
 
 	h1 img{
-		width: 6em;
-		content: url('alternate\ logo.svg');
-		margin-bottom: 1.8em;
+		width: 12em
+		/* width: 6em; */
+		/* content: url('alternate\ logo.svg'); */
+		/* margin-bottom: 1.8em; */
 	}
 
 	header {
-		grid-template-columns: 6em auto;
+		grid-template-columns: 12em auto;
 		padding-top: 1.5em;
 	}
 
