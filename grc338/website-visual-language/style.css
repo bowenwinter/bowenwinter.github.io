@@ -267,7 +267,7 @@ footer p {
 
 }
 
-@media screen and (max-width: 20em) {
+@media screen and (max-width: 30em) {
 
 	h1 {
 		width: 12em;
@@ -289,6 +289,10 @@ footer p {
 	
 	nav ul li a:hover {
 		padding: .4em .6em;
+	}
+
+	img.smaller {
+		height: 10em;
 	}
 
 	p.slogan {
