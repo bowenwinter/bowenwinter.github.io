@@ -30,6 +30,13 @@ main {
 }
 
 img {
+	width: 100%; /*Please leave this line.*/
+    display: block;
+}
+
+img.smaller {
+	height: 20em;
+	object-fit: cover;
     width: 100%; /*Please leave this line.*/
     display: block;
 }
@@ -118,6 +125,7 @@ main.menu ul li {
 }
 
 p {
+	text-align: justify;
 	margin: 0em 0em 1em;
 	line-height: 1.25em;
 	font-family: "futura-pt", sans-serif;
@@ -166,13 +174,14 @@ nav ul li a:hover {
 }
 	
 p.slogan {
-	font-size: 2.5em;
+	text-align: center;
+	font-size: 3em;
 	font-family: "futura-pt", sans-serif;
-	font-weight: 400;
+	font-weight: 700;
 	font-style: italic;
 	letter-spacing: -.025em;
-	margin: 1.5em 0em 2em;
-	color: rgb(0, 0, 0);	
+	margin: 1em 0 3em;
+	color: rgb(0, 0, 0);
 }
 	
 footer {
@@ -185,7 +194,19 @@ footer {
 	background: rgb(240, 255, 0);
 }
 
+
+
 address {
+	text-align: center;
+	color: rgb(0, 0, 0);
+	line-height: 1.5em;
+	font-family: "futura-pt", sans-serif;
+	font-weight: 500;
+	margin-bottom: 1em;
+}
+
+address.contact {
+	text-align: left;
 	color: rgb(0, 0, 0);
 	line-height: 1.5em;
 	font-family: "futura-pt", sans-serif;
@@ -196,7 +217,7 @@ article {
 	/* background-color: rgb(0, 255, 255); */
 	margin: 0 auto 5em;
 	justify-content: left;
-	max-width: 30em;
+	max-width: 32em;
 }
 
 div.contact {
@@ -244,7 +265,11 @@ footer p {
 	}
 
 	p.slogan {
-		font-size: 3em;
+		font-size: 4em;
+	}
+
+	img.smaller {
+		height: 30em;
 	}
 
 }
