@@ -294,6 +294,10 @@ footer p {
 		padding: .4em .6em;
 	}
 
+	p {
+		text-align: left;
+	}
+
 	img.smaller {
 		height: 10em;
 	}
