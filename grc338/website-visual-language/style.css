@@ -38,8 +38,8 @@ img {
 img.smaller {
 	height: 20em;
 	object-fit: cover;
-    width: 100%; /*Please leave this line.*/
-    display: block;
+	width: 100%; /*Please leave this line.*/
+	display: block;
 	border-radius: .5em;
 }
 
