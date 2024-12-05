@@ -65,6 +65,10 @@ header {
 			margin: .06em;
 		}
 
+		.addy {
+			margin: -.1em
+		}
+
 h1 {
 	width: 16em;
 }
