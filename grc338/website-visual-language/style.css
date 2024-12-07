@@ -254,6 +254,15 @@ footer p {
 		margin: 2em 1.5em 3em;
 	}
 
+	p.slogan {
+		font-size: 4em;
+		margin-bottom: 2.5em;
+	}
+
+}
+
+@media screen and (min-width: 45em) {
+
 	main.menu ul {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
@@ -264,9 +273,8 @@ footer p {
 		margin: 0 0 1em;
 	}
 
-	p.slogan {
-		font-size: 4em;
-		margin-bottom: 2.5em;
+	p.description {
+		text-align: left;
 	}
 
 }
