@@ -105,6 +105,10 @@ footer {
         margin: 0 .6em;
     }
 
+    article img {
+        margin: 0 .6em;
+    }
+
     section.secondary-in-main h2, section.secondary-in-main p {
         margin-left: 0;
         margin-right: 0;
