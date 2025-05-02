@@ -11,18 +11,9 @@ img {
     display: block;
 }
 
-h1 img {
-    margin-left: .6em;
-}
-
-div.container, div.home-container {
-    max-width: 40em;
-    margin: auto;
-}
-
 header h1 {
     width: 6em;
-    margin: 1em 0;
+    margin: 1em .6em;
 }
 
 header nav ul li a {
@@ -100,12 +91,8 @@ footer {
 
 
 @media screen and (min-width: 40em) {
-
-    body {
-        margin: 0;
-    }
 	
-    div.container, div.home-container {
+    div.container {
         max-width: 40em;
         margin: auto;
     }
@@ -114,121 +101,13 @@ footer {
         display: inline;
     }
 
-    header nav ul li a {
+    main img {
+        margin: 0 .6em;
+    }
+
+    section.secondary-in-main h2, section.secondary-in-main p {
         margin-left: 0;
-        margin-right: .6em;
-    }
-
-    header h1,
-    h1 img,
-    section.mainstory h2,
-    section.mainstory a h2,
-    section.secondary h2,
-    section.tertiary h2,
-    section.secondary-in-main h2,
-    section p,
-    p.caption {
-        margin-left: 0;
-    }
-
-}
-
-@media screen and (min-width: 60em) {
-
-    body {
-        margin: 0 1em;
-    }
-
-    section.tertiary {
-        margin-left: 1em;
-        padding-top: 0;
-    }
-	
-    div.home-container {
-        max-width: 80em;
-        padding: 0;
-        display: grid;
-        grid-template-columns: 3fr 1fr;
-    }
-
-    div.container {
-        max-width: 60em;
-        padding: 0;
-        display: grid;
-        grid-template-columns: 3fr 1fr;
-        column-gap: 1em;
-    }
-
-    header, footer {
-        grid-column: 1/3;
-    }
-
-    div.home-container main, div.container article {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        column-gap: 1em;
-    }
-    
-    aside {
-        background: none;
-        padding: 0;
-        margin-top: 0;
-    }
-
-    section.mainstory {
-        grid-column: 2/4;
-        grid-row: 1/3;
-        display: flex;
-    }
-
-    article section.mainstory {
-        grid-column: 1/4;
-        grid-row: 1/3;
-        display: flex;
-        flex: 1 0 12em;
-        flex-direction: column;
-    }
-
-    section.mainstory a {
-        flex: 1 0 12em;
-        display: flex;
-        flex-direction: column;
-    }
-
-    section.mainstory a figure {
-        flex: 1 0 12em;
-        display: flex;
-    }
-
-    section.mainstory a figure img {
-        object-fit: cover;
-    }
-    
-    section.mainstory a h2 {
-        flex: 0 0 1em;
-    }
-
-    section.secondary {
-        display: flex;
-    }
-
-    section.secondary a {
-        flex: 1 0 12em;
-        display: flex;
-        flex-direction: column;
-    }
-
-    section.secondary a figure {
-        flex: 1 0 12em;
-        display: flex;
-    }
-
-    section.secondary a figure img {
-        object-fit: cover;
-    }
-    
-    section.secondary a h2 {
-        flex: 0 0 1em;
+        margin-right: 0;
     }
 
 }
