@@ -119,23 +119,15 @@ footer {
         margin-right: .6em;
     }
 
-    h1 img {
-        margin-left: 0;
-    }
-
-    section p, p.caption {
-        margin-left: 0;
-    }
-
-    header h1 {
-        margin-left: 0;
-    }
-
+    header h1,
+    h1 img,
     section.mainstory h2,
     section.mainstory a h2,
     section.secondary h2,
     section.tertiary h2,
-    section.secondary-in-main h2 {
+    section.secondary-in-main h2,
+    section p,
+    p.caption {
         margin-left: 0;
     }
 
