@@ -28,12 +28,14 @@ header h1 {
 header nav ul li a {
     font-family: sans-serif;
     font-weight: 700;
+    font-size: 1.2em;
     margin-left: .6em;
     color: rgb(80, 120, 160);
 }
 
 header nav {
-    margin-bottom: 1em;
+    margin-bottom: 1.2em;
+    padding-top: .2em;
 }
 
 section.mainstory h2 {
@@ -56,10 +58,10 @@ section.tertiary h2 {
     font-family: serif;
     font-weight: 700;
     font-size: 1.25em;
-    margin: .5em 0 0 .5em;
+    margin: 0 0 0 .5em;
     color: rgb(80, 120, 160);
     border-top: 1px solid rgb(80, 120, 160);
-    padding-top: .5em;
+    padding-top: .4em;
 }
 
 aside {
