@@ -30,17 +30,20 @@ div.container, div.home-container {
     background-color: rgb(255, 255, 255);
 }
 
-h1 img {
-    width: 8em;
+header h1 {
     transition: .2s ease;
 }
 
+h1 img {
+    width: 6em;
+}
+
 h1 img:hover {
-    transform: scale(1.04);
+    transform: scale(1.2);
 }
 
 h1 img:active {
-    transform: scale(.96);
+    transform: scale(.8);
 }
 
 header {
@@ -94,7 +97,6 @@ section {
 }
 
 section.tertiary {
-    padding-top: .2rem;
     margin: 2rem 1rem;
 }
 
@@ -381,7 +383,7 @@ footer.form {
 @media screen and (prefers-color-scheme: dark) {
 
     body {
-        background-color: rgb(38, 38, 40);
+        background-color: rgb(36, 36, 36);
         color: rgb(240, 240, 240);
     }
 
@@ -406,7 +408,7 @@ footer.form {
     div.container, div.home-container,
     section,
     header {
-        background-color: rgb(38, 38, 40);
+        background-color: rgb(36, 36, 36);
     }
 
     header {
@@ -443,14 +445,14 @@ footer.form {
     }
 
     form {
-        background-color: rgb(38, 38, 40);
+        background-color: rgb(36, 36, 36);
     }
 
     input[type="text"],
     input[type="email"],
     input[type="checkbox"] {
         border: 1px solid rgb(100, 100, 100);
-        background: rgb(38, 38, 40);
+        background: rgb(36, 36, 36);
         color: rgb(240, 240, 240);
     }
 
@@ -521,8 +523,7 @@ footer.form {
     }
 
     header nav ul li a {
-        font-size: 1.4em;
-        margin-right: 2rem;
+        margin-right: 1.4rem;
     }
 
     header nav ul {
@@ -656,8 +657,12 @@ footer.form {
         display: block;
     }
 
+    .newsletter {
+        margin-right: 1rem;
+    }
+
     footer.form {
-        margin-top: 12.79em;
+        margin-top: 13.8em;
     }
 
 }
