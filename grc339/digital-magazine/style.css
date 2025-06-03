@@ -53,7 +53,7 @@ header {
     letter-spacing: -.04em;
     padding: 1rem;
     margin-bottom: 3rem;
-    align-items: end;
+    align-items: stretch;
     border-bottom: solid 1px rgb(24, 24, 24);
 }
 
@@ -377,7 +377,7 @@ article .mainstory {
 }
 
 footer.form {
-    margin-top: 16.3em;
+    margin-top: 17em;
 }
 
 @media screen and (prefers-color-scheme: dark) {
@@ -516,6 +516,7 @@ footer.form {
 
     header {
         margin-bottom: 1rem;
+        align-items: end;
     }
 
     .home-container footer {
@@ -662,7 +663,7 @@ footer.form {
     }
 
     footer.form {
-        margin-top: 13.8em;
+        margin-top: 15.65em;
     }
 
 }
