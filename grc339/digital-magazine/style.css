@@ -95,7 +95,6 @@ section {
 
 section.tertiary {
     padding-top: .2rem;
-    border-top: solid 1px rgb(24, 24, 24);
     margin: 2rem 1rem;
 }
 
@@ -127,6 +126,7 @@ p {
 
 p.caption {
     font-style: italic;
+    font-size: .8em;
     font-weight: 300;
     margin: .2em 0 0;
     color: rgb(120, 120, 120);
@@ -240,11 +240,6 @@ input {
     margin: 0 0 1rem;
 }
 
-/* .gallery {
-    margin-bottom: 11.75em;
-    padding-top: 0;
-} */
-
 .newsletter {
     padding-top: 0;
 }
@@ -275,6 +270,7 @@ form {
 form h2 {
     font-weight: 700;
     margin-top: 4rem;
+    margin-bottom: 1rem;
     font-size: 1.4em;
     line-height: 1em;
 }
@@ -314,7 +310,7 @@ form label {
 
 .info input[type="text"],
 .info input[type="email"] {
-    padding: 0.2rem .4rem .3rem;
+    padding: 0.2rem .3rem .3rem;
     border-radius: 0.2rem;
     font-size: 1rem;
 }
@@ -441,10 +437,6 @@ footer.form {
         color: rgb(160, 160, 160);
     }
 
-    section.tertiary {
-        border-top: solid 1px rgb(180, 180, 180);
-    }
-
     footer {
         background-color: rgb(0, 80, 255);
         color: rgb(255, 255, 255);
@@ -507,6 +499,11 @@ footer.form {
         border-bottom: solid 1px rgb(240, 240, 240);
     }
 
+    div.gallery-container {
+        margin: auto;
+        max-width: 36em;
+    }
+
 }
 
 @media screen and (min-width: 66em) {
@@ -516,10 +513,10 @@ footer.form {
     }
 
     header {
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
     }
 
-    footer {
+    .home-container footer {
         margin-top: 2rem;
     }
 
@@ -571,8 +568,13 @@ footer.form {
         grid-template-columns: 3fr 1fr;
     }
 
+    div.gallery-container {
+        margin: auto;
+        max-width: 55em;
+    }
+
     div.container {
-        max-width: 66em;
+        max-width: 55em;
         display: grid;
         grid-template-columns: 2fr 1fr;
     }
@@ -635,27 +637,15 @@ footer.form {
         object-fit: cover;
     }
 
-    .gallery {
-        grid-column: 1/3;
-        display: grid;
-        column-gap: 2rem;
-        grid-template-columns: 2fr 1fr;
-    }
-
     .galbuttons {
         display: grid;
-        grid-template-rows: repeat(4, auto);
-        grid-template-columns: repeat(2, auto);
+        grid-template-rows: repeat(2, auto);
+        grid-template-columns: repeat(4, auto);
         gap: 0.4em;
-        margin-top: 0;
     }
 
     .galbuttons img {
         height: 8em;
-    }
-
-    .gallery h2 {
-        grid-column: 1/3;
     }
 
     form h1 {
@@ -666,12 +656,8 @@ footer.form {
         display: block;
     }
 
-    footer.gallery {
-        margin-top: 10em;
-    }
-
     footer.form {
-        margin-top: 10.5em;
+        margin-top: 12.79em;
     }
 
 }
